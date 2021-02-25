@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Leave Application Form</title>
+  <link rel="stylesheet" href="../Coded/BoilerPlates/FormsCSS.css">
+  <link rel="stylesheet" href="../Coded/SpecificCssLibrary/LeaveForm.css">
+  <link rel="stylesheet" href="https://unpkg.com/ngx-bootstrap/datepicker/bs-datepicker.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <img src="../Montefiore_Master_RGB.jpg" alt="HeaderImage" class="headerImg">
+        </div>
+       <div class="formHeading">
+            <h3 class="h3" id="heading">LEAVE APPLICATION FORM</h3>
+       </div>
+
+        <div class="form-div">
+            <form id="leaveForm">
+
+                <div class="row twoSection">
+                    <div class="col-md-6 mb-3">
+                      <label for="surName">Surname</label>
+                      <input name="surName"
+                      class="form-control"
+                      type="text"
+                      placeholder="Surname">                 
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="givenName">Given Name</label>
+                      <input name="givenName"
+                      class="form-control"
+                      type="text"
+                      placeholder="Given Name">
+                    </div>
+                </div>  
+
+                <div class="row twoSection">
+                    <div class="col-md-6 mb-3">
+                      <label for="employeeNo">Employee No</label>
+                      <input type="number"
+                      name="employeeNo"
+                      class="form-control" 
+                      type="text"
+                      placeholder="Employee No">                   
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="date">Date</label>
+                        <input name="date"
+                        class="form-control"
+                        type="date">
+                    </div>
+                </div> 
+
+                <div class="row twoSection">
+                    <div class="col-md-6 mb-3">
+                      <label for="department">Department</label>
+                      <input name="department"
+                      class="form-control"
+                      type="text"
+                      placeholder="Department">                 
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="position">Position</label>
+                      <input name="Position"
+                      class="form-control"
+                      type="text"
+                      placeholder="Position">
+                    </div>
+                </div>
+
+             
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

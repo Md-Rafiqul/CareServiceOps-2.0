@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccountComponent } from './account/account.component';
@@ -20,6 +20,12 @@ import { MaintenanceComponent } from './maintenance/maintenance.component';
 import { MarketingComponent } from './marketing/marketing.component';
 import { VolunteersComponent } from './volunteers/volunteers.component';
 import { SpiritualCulturalComponent } from './spiritual-cultural/spiritual-cultural.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LeaveFormComponent } from './_Forms/leave-form/leave-form.component';
+import { EmployeeAwardFormComponent } from './_Forms/employee-award-form/employee-award-form.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 @NgModule({
   declarations: [
@@ -40,11 +46,24 @@ import { SpiritualCulturalComponent } from './spiritual-cultural/spiritual-cultu
     MaintenanceComponent,
     MarketingComponent,
     VolunteersComponent,
-    SpiritualCulturalComponent
+    SpiritualCulturalComponent,
+    LeaveFormComponent,
+    EmployeeAwardFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    BsDropdownModule.forRoot(),
+    BsDatepickerModule.forRoot()
+  ],
+  exports: [
+    BsDropdownModule,
+    BsDatepickerModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
