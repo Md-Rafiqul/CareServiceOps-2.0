@@ -10,7 +10,7 @@ This application is Angular 11 based web application which uses .net core rest a
 
 ## Basic Setup instructions:
    -------------------------
-  [ As of March 01,2021 ]
+   As of March 01,2021 
 
 Prerequisite for running this application in local machine-- </br>
 Install npm (Node package manager) </br>
@@ -20,19 +20,19 @@ Install .Net core framework and EntityFramework Core </br>
 
 Angular::
 
-. cd [project directory] </br>
-. cd MonteFront </br>
-. ng serve </br>
+> cd [project directory] </br>
+> cd MonteFront </br>
+> ng serve </br>
 
 API::
 
-. cd [project directory] </br>
-. cd MonteServices </br>
-. dotnet run </br>
+> cd [project directory] </br>
+> cd MonteServices </br>
+> dotnet run </br>
  [If watch installed]
 >dotnet watch run
 
-===============================
+
 
 Login:
 -------------------------------
