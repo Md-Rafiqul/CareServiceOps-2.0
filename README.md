@@ -12,7 +12,7 @@ This application is Angular 11 based web application which uses .net core rest a
    -------------------------
   [ As of March 01,2021 ]
 
-Prerequisite for running this application in local machine--
+Prerequisite for running this application in local machine-- </br>
 Install npm (Node package manager)
 Install Angular CLI (ng .. )
 Install MSSql & SQL Management Studio
