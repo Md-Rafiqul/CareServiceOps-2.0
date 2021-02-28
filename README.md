@@ -1,9 +1,6 @@
 # CareServiceOps-2.0
 
 
-Authored by : Rafiqul Islam
-----------------------------
-
 This application is Angular 11 based web application which uses .net core rest api. 
 
 
